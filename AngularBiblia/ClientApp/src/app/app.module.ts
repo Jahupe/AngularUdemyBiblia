@@ -11,6 +11,9 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { EjemplosComponent } from './components/ejemplos/ejemplos.component';
 import { SumarComponent } from './components/sumar/sumar.component';
+import { CronometroComponent } from './components/cronometro/cronometro.component';
+import { EventosComponent } from './components/eventos/eventos.component';
+import { CalculadoraComponent } from './components/calculadora/calculadora.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { SumarComponent } from './components/sumar/sumar.component';
     CounterComponent,
     FetchDataComponent,
     EjemplosComponent,
-    SumarComponent
+    SumarComponent,
+    CronometroComponent,
+    EventosComponent,
+    CalculadoraComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

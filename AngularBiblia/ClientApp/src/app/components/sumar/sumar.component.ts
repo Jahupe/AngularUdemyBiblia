@@ -21,7 +21,7 @@ export class SumarComponent implements OnInit {
   }
 
   onClick() {
-    this.resultado= this.num1 + this.num2
+    this.resultado= this.num1 + this.num2 
   }
 
 }

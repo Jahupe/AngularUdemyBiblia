@@ -1,0 +1,14 @@
+<button class="btn-danger" (click)="onClick($event)">Pulsar</button>
+<select (change)="onChange($event)">
+  <option value="0">:.Seleccione.:</option>
+  <option value="1">Uno</option>
+  <option value="2">Dos</option>
+  <option value="3">Tres</option>
+</select>
+
+<div class="cuadrado" (mouseenter)="onMouseEnter()" (mouseout)="onMouseOut()">
+    {{mensaje}}
+</div>
+
+
+<input type="text" (change)="onChangeInput($event)" (input)="onInput($event)" (focus)="onFocus()" (blur)="onBlur()"/>
